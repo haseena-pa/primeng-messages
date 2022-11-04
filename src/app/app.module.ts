@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
-import { MessageModule } from 'primeng/message';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MessagesModule } from 'primeng/messages';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,7 @@ import { MessageModule } from 'primeng/message';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MessageModule
+    MessagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
